@@ -10,14 +10,20 @@
     align-items: center;
     border:20px;
   }
+
   .container div{
       left:20%;
       height:100%;
       padding:10px;
-      background:rgb(128, 209, 209);
+      background:rgb(128, 209, 209, 0.7);
+      border-radius:10px;
 
       padding-bottom: 10px;;
 
+  }
+  .container div:hover{
+      background-color: rgb(128, 209, 209);
+      cursor:pointer
   }
   .container div img{
    margin-top:10px;

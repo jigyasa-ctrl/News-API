@@ -13,7 +13,7 @@ body{
 }
 
 .main h1{
-border:20px;
+border-radius:20px;
 height:40px;
 padding:20px;
 background-color: wheat;
