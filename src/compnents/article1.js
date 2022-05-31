@@ -9,7 +9,7 @@ export class Hello extends Component {
         }
     }
     componentDidMount() {
-        fetch('http://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=63977ed5d2af4d09bf0f976835151533')
+        fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=63977ed5d2af4d09bf0f976835151533')
         .then((response)=> {
             return response.json();
         })
@@ -20,7 +20,7 @@ export class Hello extends Component {
         })
     }
     render() {
-        console.log(this.state)
+        
         return (
             <div className='top container'>
                 {this.state.articles.map((item, index) => {
