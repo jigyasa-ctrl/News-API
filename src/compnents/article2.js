@@ -10,7 +10,7 @@ export class App extends Component {
         }
     }
     componentDidMount() {
-        fetch('http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=63977ed5d2af4d09bf0f976835151533')
+        fetch('https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=63977ed5d2af4d09bf0f976835151533')
         .then((response) => {
             return response.json();
         })
@@ -21,7 +21,7 @@ export class App extends Component {
         });
     }
     render() {
-        console.log(this.state);
+        
         
         return (
             
